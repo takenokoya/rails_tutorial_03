@@ -1,2 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+takuya:
+  name: Takuya Sakaguchi
+  email: takuya1002@gmail.com
+  password_digest: <%= User.digest('password') %>
