@@ -1,2 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+one:
+  follower: takuya
+  followed: lana
+
+two:
+  follower: takuya
+  followed: malory
+
+three:
+  follower: lana
+  followed: takuya
+
+four:
+  follower: kasumi
+  followed: takuya
